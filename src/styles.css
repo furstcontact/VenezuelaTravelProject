@@ -15,6 +15,10 @@ img {
   padding-top: 80px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -32,6 +36,10 @@ img {
   vertical-align: top;
   margin: 0;
   padding: 0;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
 }
 
 .img-responsive {
@@ -91,6 +99,23 @@ img {
 
 .card-body {
   padding: 20px;
+}
+.card-footer {
+  padding-bottom: 0;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
 }
 
 section {
