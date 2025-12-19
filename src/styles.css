@@ -26,9 +26,27 @@ img {
   grid-gap: 64px;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
+  height: auto;
+}
+
+.card .img-responsive {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
 }
 
 .grid-2-columns {
@@ -42,6 +60,11 @@ img {
 
 .text-align {
   text-align: center;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+  align-items: start;
 }
 
 .card {
