@@ -10,6 +10,11 @@ main {
   padding: 50px 30px;
 }
 
+img {
+  display: block;
+  padding-top: 80px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -23,20 +28,56 @@ main {
 
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
 
-.grid-3-columns-with-first-narrow {
+.grid-3-columns-with-first-narrow,
+.grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.text-align {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.card h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1em;
+  color: #272044;
+  margin: 0;
+}
+
+.card h5 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #555555;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background-color: #f9f9f9;
 }
 
 header {
@@ -51,7 +92,7 @@ header {
 
 main h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 25px;
   line-height: 1.5em;
   letter-spacing: 5px;
   color: #272044;
@@ -61,7 +102,7 @@ main h2 {
 
 main h3 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.5em;
   color: #272044;
 }
@@ -76,7 +117,7 @@ main p {
 }
 
 header h1 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 96px;
   line-height: 1.5em;
 }
@@ -86,7 +127,7 @@ header h2 {
   line-height: 1.5em;
 }
 header h3 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 24px;
   line-height: 1.5em;
   letter-spacing: 5px;
